@@ -32,7 +32,7 @@
       Sign Up
     </a>
 </div>
-<img src="./assets/menu-svgrepo-com(1).svg" class="w-6 ml-44  md:hidden">
+<img src="./assets/menu-svgrepo-com(1).svg" class="w-6 ml-44  md:hidden" id="menu">
   <div>
     
   </div>
@@ -641,57 +641,55 @@ Star on Github
 
       </div>
     </div>
- <!--  -->
- <div class=" bg-slate-400 mt-16 w-full ">
-<div class=" ml-48 mt-32">
+ <!--  -->  
+ <div class=" cols-2 md:grid grid-cols-2 gap-4  mt-28 bg-slate-400  ">
+  <div class="  mx-36  sm:m-64  ">
+    <span class="mb-5 text-base font-semibold text-dark">
+    CONTACT US
+  </span>
 
-    <div class=" flex justify-between mr-12">
-    
-    <div class=" mr-44  mt-32">
-      <span class="mb-5 text-base font-semibold text-dark">
-        CONTACT US
-      </span>
-      <h2 class="text-[35px] font-semibold">
-        Let's talk about <br>
-        Love to hear from you!
-      </h2>
-    </div>
-<div class=" bg-white  w-80 border-2 border-b-gray-300 ">
-  <h3 class="mb-8 text-2xl font-semibold md:text-[26px]">
-    Send us a Message
-  </h3>
-  <form class=" mr-6">
-    <div class="mb-6 mr-5">
-      <label for="fullName" class="block text-xs text-dark">Full Name*</label>
-      <input type="text" name="fullName" placeholder="Adam Gelius" class="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none">
-    </div>
-    <div class="mb-6">
-      <label for="email" class="block text-xs text-dark">Email*</label>
-      <input type="email" name="email" placeholder="example@yourmail.com" class="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none">
-    </div>
-    <div class="mb-6">
-      <label for="phone" class="block text-xs text-dark">Phone*</label>
-      <input type="text" name="phone" placeholder="+885 1254 5211 552" class="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none">
-    </div>
-    <div class="mb-6">
-      <label for="message" class="block text-xs text-dark">Message*</label>
-      <textarea name="message" rows="1" placeholder="type your message here" class="w-full resize-none border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none"></textarea>
-    </div>
-    <div class="mb-0">
-      <button type="submit" class="inline-flex items-center justify-center rounded bg-blue-500 py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-dark">
-        Send Message
-      </button>
-    </div>
-  </form>
+    <h2 class="text-[35px] font-semibold">
+      Let's talk about <br>
+      Love to hear from you!
+    </h2>
+  </div>
+  <!-- ... -->
+  <div class=" bg-white w-96 mt-6 mx-36  sm:mx-96 ">
+ 
+              <h3 class="mb-8 text-2xl font-semibold md:text-[26px]">
+                Send us a Message
+              </h3>
+              <form>
+                <div class="mb-6">
+                  <label for="fullName" class="block text-xs text-dark">Full Name*</label>
+                  <input type="text" name="fullName" placeholder="Adam Gelius" class="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none">
+                </div>
+                <div class="mb-6">
+                  <label for="email" class="block text-xs text-dark">Email*</label>
+                  <input type="email" name="email" placeholder="example@yourmail.com" class="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none">
+                </div>
+                <div class="mb-6">
+                  <label for="phone" class="block text-xs text-dark">Phone*</label>
+                  <input type="text" name="phone" placeholder="+885 1254 5211 552" class="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none">
+                </div>
+                <div class="mb-6">
+                  <label for="message" class="block text-xs text-dark">Message*</label>
+                  <textarea name="message" rows="1" placeholder="type your message here" class="w-full resize-none border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none"></textarea>
+                </div>
+                <div class="mb-0">
+                  <button type="submit" class="inline-flex items-center justify-center rounded bg-blue-600 py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-black">
+                    Send Message
+                  </button>
+           
+              </form>
+            </div>
+  </div>
 </div>
 
-</div>
-</div>
-</div>
 <!-- footer -->
-<div class="bg-neutral-500 py-5 mt-9">
+<div class="bg-neutral-500 py-5 mt-9 ">
 
-<div class="flex justify-between bg-neutral-500">
+<div class="   col  items-center md:flex  justify-between md: flex-wrap bg-neutral-500">
 <div>
   <a href="#" class="mb-3 inline-block max-w-[160px]">
     <img src="assets/images/logo/logo-white.svg" alt="logo" class="max-w-full">
@@ -777,22 +775,36 @@ Star on Github
     </li>
   </ul>
 </div>
-<div class="mr-16 ">
-  <h4 class="mb-9 text-lg font-semibold text-white">Partners</h4>
-  <ul class=" mt-10">
-    <a>
-      <img src="assets/images/footer/brands/tailgrids.svg" alt="tailgrids " class=" w-24"> 
-    </a>
-    <a>
-      <img src="assets/images/footer/brands/ayroui.svg" alt="ayroui" class="w-24">
-    </a>
-    <a>
-      <img src="assets/images/footer/brands/ecommerce-html.svg" alt="ecommerce-html" class="w-24">
-    </a>
-  </ul>
-</div>
+
 </div>
 <hr>
+<div class="-mx-4 flex flex-wrap">
+  <div class="w-full px-4 md:w-2/3 lg:w-1/2">
+    <div class="my-1">
+      <div class="-mx-3 flex items-center justify-center md:justify-start">
+        <a href="javascript:void(0)" class="px-3 text-base text-[#f3f4fe] hover:text-primary">
+          Privacy policy
+        </a>
+        <a href="javascript:void(0)" class="px-3 text-base text-[#f3f4fe] hover:text-primary">
+          Legal notice
+        </a>
+        <a href="javascript:void(0)" class="px-3 text-base text-[#f3f4fe] hover:text-primary">
+          Terms of service
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="w-full px-4 md:w-1/3 lg:w-1/2">
+    <div class="my-1 flex justify-center md:justify-end">
+      <p class="text-base text-[#f3f4fe]">
+        Designed and Developed by
+        <a href="https://tailgrids.com" rel="nofollow noopner" target="_blank" class="text-blue-700 hover:underline">
+          TailGrids and UIdeck
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
 </div>
 </body>
 </html>
