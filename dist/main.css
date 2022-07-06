@@ -3,6 +3,11 @@
     background-color: rgb(14 165 233);
     height: 100vh;
 }
+#navbar.show{
+background-color: red;
+color: royalblue;
+
+}
 .menubar{
 background-color: aqua;
 
@@ -16,7 +21,7 @@ transition: 0.5s;
 z-index: 2;
 opacity: 75%;
 text-align: center;
-    
+  
 }
 
 .menubar.active{
@@ -26,6 +31,11 @@ left: 400px;
 .menubar ul li{
     text-align: center;
 margin: 10px    ;
+
+}
+.menubar ul li a{
+margin: 10px;
+
 }
 a:hover{
 color: blue;
