@@ -7,10 +7,16 @@ Navbar.classList.toggle("active")
 
 })
 window.addEventListener('scroll',()=>{
-if(scroolm.click){
-window.scrollTo="0"
+if(scrollY>300){
+scroolm.classList.add("show")
 
+}else{
+    scroolm.classList.remove("show")
 }
 
 
+})
+scroolm.addEventListener("click",()=>{
+window.scrollTo({top:0,behavior:"smooth"})
+    
 })
