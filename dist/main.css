@@ -3,3 +3,36 @@
     background-color: rgb(14 165 233);
     height: 100vh;
 }
+.menubar{
+background-color: aqua;
+
+position: fixed;
+top: 39px;
+right:100%;
+padding: 10px;
+width: 50%;
+height: 50vh;
+transition: 0.5s;
+z-index: 2;
+opacity: 75%;
+text-align: center;
+    
+}
+
+.menubar.active{
+left: 400px;
+
+}
+.menubar ul li{
+    text-align: center;
+margin: 10px    ;
+}
+a:hover{
+color: blue;
+}  
+#btn{
+position: fixed;
+right: 0;
+bottom: 0 ;
+
+}     

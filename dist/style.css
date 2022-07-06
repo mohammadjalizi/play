@@ -941,6 +941,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .resize-none {
   resize: none;
 }
@@ -1249,6 +1253,10 @@ video {
 
 .pt-20 {
   padding-top: 5rem;
+}
+
+.pt-96 {
+  padding-top: 24rem;
 }
 
 .text-center {
