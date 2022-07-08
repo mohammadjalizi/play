@@ -1,3 +1,6 @@
+body{
+    transition: 0.8s ease-in;
+}
 #navbar{
 
     background-color: rgb(14 165 233);
