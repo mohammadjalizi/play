@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'bounce-slow': 'spin 9s linear infinite',
+        wiggle: 'wiggle 1s ease-in-out infinite',
       }
     },
   },

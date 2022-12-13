@@ -57,3 +57,14 @@ transition: 0.8s ease-out;
     opacity: 1;
 
 }
+.card{
+
+animation: mycard 8s 1;
+
+}
+@keyframes mycard{
+0%{ transform: translate(0,10vw); }
+
+10%{transform: translate(0,0);}
+
+}
