@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>play</title>
-   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./dist/style.css">
     <link rel="stylesheet" href="./dist/main.css">
 </head>
@@ -89,7 +89,7 @@
   </div>
   <!-- end navbar -->
   
-  <div    class=" mt-20 md:mt-60 p-20   md:Flex justify-center" id="home"   >
+  <div  data-aos="fade-up-left"  class=" mt-20 md:mt-60 p-20   md:Flex justify-center" id="home"   >
     <div class="mb-12 max-w-[620px] lg:mb-20">
       <span class="mb-2 block text-lg font-semibold text-primary">
         Features
@@ -149,7 +149,7 @@
     
 </div>
 <!-- seacion2 -->
-<div class=" transition-all">
+<div  data-aos="zoom-in-right" class=" transition-all">
 <div class="text-center mt-10 ">
 <span class=" text-blue-500 ">
   Pricing Table
@@ -164,7 +164,7 @@
 </div>
 <!-- seaction3 -->
 
-<div class="card mt-10  col   justify-center gap-4  md:flex flex-wrap ">
+<div data-aos="fade-up-left" class="card mt-10  col   justify-center gap-4  md:flex flex-wrap ">
   <div class=" p-28 z-10 mb-10 overflow-hidden rounded-sm border-2 border-blue -600      text-center shadow-pricing  ">
   <span class="mb-5 inline-block rounded-full border border-white bg-white py-2 px-6 text-base font-semibold uppercase text-primary">
     POPULAR
@@ -296,7 +296,7 @@
 
     <!-- seaction3 -->
    
-    <div class=" py-10"  >
+    <div data-aos="fade-right" class=" py-10"  >
       <div class=" text-center" id="projects"> 
       <span class=" text-center text-blue-500  ">
         Testimonials
@@ -478,8 +478,9 @@
       </div>
     </div>
     
-    <div class="mt-28">
-<div class=" text-center " id="team">
+    <div  data-aos="fade-up"
+    data-aos-duration="3000" class="mt-28">
+<div   class=" text-center " id="team">
   <span class="mb-2 block text-lg font-semibold text-primary">
     Our Team
   </span>
@@ -818,10 +819,13 @@
 </div>
 </div>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 <script src="./dist/script.js">
 </script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
